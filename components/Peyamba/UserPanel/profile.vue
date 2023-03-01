@@ -4,6 +4,7 @@
         <div class="container mx-auto sm:px-4">
             <div class="flex flex-wrap ">
                 <div class="xl:w-1/3  md:w-2/5 pr-4 pl-4">
+                    
                     <div class="accordion" id="accordionExample">
                         <div class="card">
                             <div class="card-header" id="headingOne">
@@ -20,7 +21,7 @@
                                 </button>
                             </div>
 
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            <div id="collapseOne" class="show visible" aria-labelledby="headingOne"
                                 data-parent="#accordionExample">
                                 <div class="card-body">
                                     <ul class="links">

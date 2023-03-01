@@ -9,19 +9,18 @@
     background-size: cover;
     position: relative;
     overflow: hidden;
-    .img1{
+    .img1 {
         position: absolute;
         right: 10%;
         animation: leftRight 5s linear infinite;
     }
-    .img2{
+    .img2 {
         position: absolute;
         right: 17%;
         bottom: 20%;
         animation: upDown 5s linear infinite;
     }
-
-    .main-title{
+    .main-title {
         font-size: 60px;
         line-height: 70px;
         font-weight: 700;
@@ -30,38 +29,37 @@
         text-align: center;
         margin-bottom: 15px;
     }
-
-    .join-now-box{
+    .join-now-box {
         background: #fff;
         padding: 23px 0px 60px;
         border-radius: 30px;
         box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
-        .single-option{
+        .single-option {
             display: flex;
             border-bottom: 1px solid rgba(0, 0, 0, 0.1);
             padding: 22px 20px 15px;
-            &.last{
+            &.last {
                 border-bottom: 0px!important;
                 padding: 29px 20px 28px;
-                .title{
+                .title {
                     top: 4px;
                 }
-                .select-bar{
+                .select-bar {
                     width: 190px;
                     height: 40px!important;
                     line-height: 40px!important;
                 }
             }
-            &.gender{
+            &.gender {
                 padding: 17px 20px 17px;
             }
-            &.age{
+            &.age {
                 padding: 21px 20px 20px;
-                .select-bar{
+                .select-bar {
                     width: 70px;
                 }
             }
-            .title{
+            .title {
                 position: relative;
                 font-size: 18px;
                 line-height: 28px;
@@ -81,8 +79,8 @@
                     opacity: 0;
                     z-index: -9;
                     text-align: center;
-                    &:checked ~ label::before {
-                        color: $theme-color ;
+                    &:checked~label::before {
+                        color: $theme-color;
                         content: "\f111";
                         font-family: "Font Awesome 5 Free";
                         font-weight: 600;
@@ -112,7 +110,7 @@
                         top: 7px;
                     }
                 }
-                .s-input{
+                .s-input {
                     .nice-select {
                         background: transparent;
                         border: none;
@@ -121,8 +119,8 @@
                         padding: 0px 30px 0px 15px;
                         border: 1px solid rgba(0, 0, 0, 0.1);
                         height: auto;
-                        .list{
-                            li{
+                        .list {
+                            li {
                                 color: #222;
                                 padding: 0px 10px;
                                 line-height: 20px;
@@ -132,21 +130,20 @@
                 }
             }
         }
-        .joun-button{
+        .joun-button {
             text-align: center;
-            .custom-button{
+            .custom-button {
                 padding: 13px 45px;
             }
         }
     }
-    &.home2{
+    &.home2 {
         background-image: url('../images/banner/hero-banner2.jpg')!important;
         padding: 189px 0 220px;
-        .img3{
+        .img3 {
             position: absolute;
             right: 5%;
             animation: leftRight 4s linear infinite;
         }
     }
-    
 }

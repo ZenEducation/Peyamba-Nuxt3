@@ -1,20 +1,20 @@
 <template>
     <div>
-        <section class="flirting-section about-section">
+        <section class=" py-[116px]">
         <div class="container mx-auto sm:px-4">
             <div class="flex flex-wrap ">
                 <div class="lg:w-1/2 pr-4 pl-4 self-center">
-                    <div class="img">
-                        <img src="@/assets/frontend/images/about/about-page-left.html.png" alt="">
+                    <div class="text-center relative px-[30px] py-0">
+                        <img src="@/assets/frontend/images/about/about-page-left.html.png" class=" w-full" alt="">
                     </div>
                 </div>
                 <div class="lg:w-1/2 pr-4 pl-4">
-                    <div class="content">
-                        <div class="section-header">
-                            <h6 class="sub-title">
+                    <div >
+                        <div class="mb-0">
+                            <h6 class=" text-[#5650ce] block text-2xl leading-[34px] font-semibold mb-6">
                                 Get to Know More
                             </h6>
-                            <h2 class="title">
+                            <h2 class=" text-[50px] leading-[60px] font-bold block text-[#292929] mb-[11px]">
                                 About us
                             </h2>
                             <p>

@@ -1,21 +1,21 @@
 <template>
     <div>
-        <div class="modal fade" id="email-confirm" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="top-img">
-                        <img src="@/assets/frontend/images/c-image.png" alt="">
+        <div class=" hidden" id="email-confirm" tabindex="-1" aria-hidden="true">
+        <div>
+            <div class="overflow-hidden rounded-[20px]">
+                <div class="overflow-hidden p-0">
+                    <div>
+                        <img src="@/assets/frontend/images/c-image.png" class="w-full" alt="">
                     </div>
-                    <div class="main-content">
-                        <h4 class="title">
+                    <div class="text-center p-[30px]">
+                        <h4 class="text-2xl leading-[34px] font-semibold text-[#3b368c] mb-[15px]">
                             Check Your Inbox, Please!
                         </h4>
                         <p>
                             A link to verify account has been sent to the email supplied. Please open the link and follow the prompts to verify email.
                         </p>
-                        <p class="send-again">
-                            Didn't get e-mail? <a href="#">
+                        <p class="text-base">
+                            Didn't get e-mail? <a href="#" class="text-[#3b368c] font-semibold hover:underlin">
                 Send it again
               </a>
                         </p>

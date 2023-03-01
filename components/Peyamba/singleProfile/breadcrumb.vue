@@ -1,20 +1,22 @@
 <template>
     <div>
-        <section class="breadcrumb-area profile-bc-area">
+        <section class=" pt-40 pb-16 bg-[url('../images/banner/bc-about.jpg')] bg-cover bg-bottom bg-no-repeat  ">
         <div class="container mx-auto sm:px-4">
-            <div class="content">
-                <h2 class="title extra-padding">
+            <div >
+                <h2 class="text-white block pb-4 text-5xl font-black">
                     Single Profile
                 </h2>
-                <ul class="breadcrumb-list extra-padding">
-                    <li>
-                        <NuxtLink to="/peyamba">
+                <ul class="bg-transparent block pb-1 max-[575px]:p-0">
+                    <li class="capitalize inline-block text-indigo-200 text-lg max-[575px]:text-base max-[575px]:p-0">
+                        <NuxtLink to="/peyamba" class="capitalize no-underline text-indigo-200 text-lg inline-flex items-center after:content-['>'] after:font-semibold after:inline-block after:ml-2 after:mr-2 after:font-['Font Awesome 5 Free'] max-[575px]:text-base max-[575px]:p-0">
                             Home
                         </NuxtLink>
                     </li>
 
-                    <li>
-                        Single Profile
+                    <li class="capitalize no-underline inline-block text-indigo-200 text-lg max-[575px]:text-base max-[575px]:p-0">
+                        <NuxtLink to="/peyamba/singleprofile" class="capitalize no-underline text-indigo-200 text-lg inline-flex items-center max-[575px]:text-base max-[575px]:p-0">
+                            Single Profile
+                        </NuxtLink>
                     </li>
                 </ul>
             </div>
