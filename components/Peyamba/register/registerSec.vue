@@ -2,10 +2,10 @@
     <div>
         <section class=" relative h-screen w-full">
             <div>
-                <div class="container mx-auto sm:px-4">
-                    <div class="flex flex-wrap ">
-                        <div class="lg:w-2/5 pr-4 pl-4">
-                            <NuxtLink to="/peyamba" class="text-white px-0 py-[15px] hover:underline"><i
+                <div class="container mx-auto sm:px-4 block">
+                    <div class="flex flex-wrap mx-[-15px]">
+                        <div class="lg:w-2/5 pr-4 pl-4 relative w-full">
+                            <NuxtLink to="/peyamba" class="text-white px-0 py-[15px]  hover:underline"><i
                                     class="fas fa-chevron-left mr-[5px]"></i> Back to peyamba</NuxtLink>
                         </div>
                         <div class="lg:w-3/5 pr-4 pl-4 ">
@@ -17,16 +17,17 @@
                 </div>
             </div>
             <div class="container  sm:px-4">
-                <div class="flex flex-wrap  justify-end">
-                    <div class="bg-[url('@/assets/frontend/images/reg.jpg')] bg-no-repeat bg-center bg-cover h-screen w-[43%] absolute z-[-1] left-0 top-0">
+                <div class="flex flex-wrap  justify-end mx-[-15px]">
+                    <div class="bg-[url('@/assets/frontend/images/reg.jpg')] lg:w-2/5 bg-no-repeat bg-center bg-cover h-screen w-[43%] block -z-1 absolute left-0 top-0">
                     </div>
-                    <div class="lg:w-3/5 pr-4 pl-4">
+                    
+                    <div class="lg:w-3/5 pr-4 pl-4  relative w-full">
                         <div class="h-[calc(100vh_-_72px)] overflow-y-auto pr-10 pt-[30px] pb-10">
                             <div class="text-left">
-                                <h2 class="uppercase text-[#3b368c]">
+                                <h2 class="uppercase text-[#3b368c] text-[50px] leading-[60px] font-bold block mb-[11px]">
                                     Welcome to PEYAMBA
                                 </h2>
-                                <p class="text-[#3b368c]">
+                                <p class="text-[#3b368c] text-[18px]">
                                     Let's create your profile! Just fill in the fields below, and
                                     we’ll get a new account.
                                 </p>

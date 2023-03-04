@@ -4640,8 +4640,7 @@ input[type=submit] {
     -webkit-animation-delay: 1.2s; */
 }
 
-
-/* @media screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
     .section-503 .wrapper .container .p503 {
         font-size: 150px;
     }
@@ -4657,7 +4656,7 @@ input[type=submit] {
     .section-503 .wrapper .container .p503 {
         font-size: 80px;
     }
-} */
+}
 
 @-webkit-keyframes anime404 {
     0% {
@@ -4675,8 +4674,7 @@ input[type=submit] {
     }
 }
 
-
-/* .section-503 .wrapper .container .p503:nth-of-type(2) {
+.section-503 .wrapper .container .p503:nth-of-type(2) {
     color: #36184f;
     z-index: 1;
     -webkit-animation-delay: 1s;
@@ -4684,11 +4682,10 @@ input[type=submit] {
     -webkit-filter: blur(10px);
     filter: blur(10px);
     opacity: 0.8;
-} */
+}
 
-
-/* .section-503 .wrapper .container .circle:before {
-    content: "";
+.section-503 .wrapper .container .circle:before {
+    content: '';
     position: absolute;
     width: 800px;
     height: 800px;
@@ -4703,7 +4700,7 @@ input[type=submit] {
     box-shadow: inset 5px 20px 40px rgba(54, 24, 79, 0.25), inset 5px 0px 5px rgba(50, 36, 62, 0.3), inset 5px 5px 20px rgba(50, 36, 62, 0.25), 2px 2px 5px rgba(255, 255, 255, 0.2);
     -webkit-animation: circle 0.8s cubic-bezier(1, 0.06, 0.25, 1) backwards;
     animation: circle 0.8s cubic-bezier(1, 0.06, 0.25, 1) backwards;
-} */
+}
 
 @-webkit-keyframes circle {
     0% {
@@ -4719,8 +4716,7 @@ input[type=submit] {
     }
 }
 
-
-/* @media screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
     .section-503 .wrapper .container .circle:before {
         width: 550px;
         height: 550px;
@@ -4739,11 +4735,10 @@ input[type=submit] {
         width: 300px;
         height: 300px;
     }
-} */
+}
 
-
-/* .section-503 .wrapper .container .one .content:before {
-    content: "";
+.section-503 .wrapper .container .one .content:before {
+    content: '';
     position: absolute;
     width: 600px;
     height: 600px;
@@ -4753,10 +4748,9 @@ input[type=submit] {
     box-shadow: inset 5px 20px 40px rgba(54, 24, 79, 0.25), inset 5px 0px 5px rgba(50, 36, 62, 0.3), inset 5px 5px 20px rgba(50, 36, 62, 0.25), 2px 2px 5px rgba(255, 255, 255, 0.2);
     -webkit-animation: circle 0.8s 0.4s cubic-bezier(1, 0.06, 0.25, 1) backwards;
     animation: circle 0.8s 0.4s cubic-bezier(1, 0.06, 0.25, 1) backwards;
-} */
+}
 
-
-/* @media screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
     .section-503 .wrapper .container .one .content:before {
         width: 400px;
         height: 400px;
@@ -4775,17 +4769,15 @@ input[type=submit] {
         width: 250px;
         height: 250px;
     }
-} */
+}
 
-
-/* .section-503 .wrapper .container .one .content .piece {
+.section-503 .wrapper .container .one .content .piece {
     background: -webkit-gradient(linear, left top, right top, color-stop(13.7%, #8077ea), color-stop(94.65%, #eb73ff));
     background: -o-linear-gradient(left, #8077ea 13.7%, #eb73ff 94.65%);
     background: linear-gradient(90deg, #8077ea 13.7%, #eb73ff 94.65%);
-} */
+}
 
-
-/* .section-503 .wrapper .container .one .content .piece:nth-child(1) {
+.section-503 .wrapper .container .one .content .piece:nth-child(1) {
     right: 15%;
     top: 18%;
     height: 30px;
@@ -4816,10 +4808,9 @@ input[type=submit] {
     animation-delay: 1.5s;
     -webkit-animation-name: pieceLeft;
     animation-name: pieceLeft;
-} */
+}
 
-
-/* .section-503 .wrapper .container .two .content .piece {
+.section-503 .wrapper .container .two .content .piece {
     background: -webkit-gradient(linear, left top, right top, from(#ffedc0), to(#ff9d87));
     background: -o-linear-gradient(left, #ffedc0 0%, #ff9d87 100%);
     background: linear-gradient(90deg, #ffedc0 0%, #ff9d87 100%);
@@ -4893,7 +4884,7 @@ input[type=submit] {
     animation-name: pieceLeft;
     -webkit-animation-delay: 4.5s;
     animation-delay: 4.5s;
-} */
+}
 
 .area-503 {
     padding: 70px 0 100px;
