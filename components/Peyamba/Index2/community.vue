@@ -21,9 +21,10 @@
             </div>
             <div class="flex flex-wrap  justify-center">
                 <div class="lg:w-1/3 md:w-1/2 pr-4 pl-4">
-                    <div class="bg-white overflow-hidden transition-all duration-[ease] delay-[0.3s] rounded-[20px] hover:shadow-[0px_10px_50px_0px_rgb(176,164,226)] hover:translate-y-[-5px]" data-wow-delay="0.1s">
+                    <div class="group">
+                        <div class="bg-white overflow-hidden transition-all duration-[ease] delay-[0.3s] hover:transition-all hover:duration-[ease] hover:delay-[0.3s] rounded-[20px] hover:shadow-[0px_10px_50px_0px_rgb(176,164,226)] hover:translate-y-[-5px]" data-wow-delay="0.1s">
                         <div class="overflow-hidden">
-                            <img src="@/assets/frontend/images/sucess/img1.jpg" class="w-full transition-all duration-[linear] delay-[0.6s]" alt="">
+                            <img src="@/assets/frontend/images/sucess/img1.jpg" class="w-full transition-all duration-[linear] delay-[0.6s]  group-hover:scale-110" alt="">
                         </div>
                         <div class="relative pt-[23px] pb-[25px] px-[30px]">
                             <p class="mb-2">
@@ -45,11 +46,13 @@
                             </div>
                         </div>
                     </div>
+                    </div>
                 </div>
                 <div class="lg:w-1/3 md:w-1/2 pr-4 pl-4">
-                    <div class="bg-white overflow-hidden transition-all duration-[ease] delay-[0.3s] rounded-[20px] hover:shadow-[0px_10px_50px_0px_rgb(176,164,226)] hover:translate-y-[-5px]" data-wow-delay="0.2s">
+                    <div class="group">
+                        <div class="bg-white overflow-hidden transition-all duration-[ease] delay-[0.3s] hover:transition-all hover:duration-[ease] hover:delay-[0.3s] rounded-[20px] hover:shadow-[0px_10px_50px_0px_rgb(176,164,226)] hover:translate-y-[-5px]" data-wow-delay="0.2s">
                         <div class="overflow-hidden">
-                            <img src="@/assets/frontend/images/sucess/img2.png" class="w-full transition-all duration-[linear] delay-[0.6s]" alt="">
+                            <img src="@/assets/frontend/images/sucess/img2.png" class="w-full transition-all duration-[linear] delay-[0.6s] group-hover:scale-110" alt="">
                         </div>
                         <div class="relative pt-[23px] pb-[25px] px-[30px]">
                             <p class="mb-2">
@@ -71,11 +74,13 @@
                             </div>
                         </div>
                     </div>
+                    </div>
                 </div>
                 <div class="lg:w-1/3 md:w-1/2 pr-4 pl-4">
-                    <div class="bg-white overflow-hidden transition-all duration-[ease] delay-[0.3s] rounded-[20px] hover:shadow-[0px_10px_50px_0px_rgb(176,164,226)] hover:translate-y-[-5px] " data-wow-delay="0.3s">
+                    <div class="group">
+                        <div class="bg-white overflow-hidden transition-all duration-[ease] delay-[0.3s] hover:transition-all hover:duration-[ease] hover:delay-[0.3s] rounded-[20px] hover:shadow-[0px_10px_50px_0px_rgb(176,164,226)] hover:translate-y-[-5px] " data-wow-delay="0.3s">
                         <div class="overflow-hidden ">
-                            <img src="@/assets/frontend/images/sucess/img3.png" class="w-full transition-all duration-[linear] delay-[0.6s]" alt="">
+                            <img src="@/assets/frontend/images/sucess/img3.png" class="w-full transition-all duration-[linear] delay-[0.6s] group-hover:scale-110" alt="">
                         </div>
                         <div class="relative pt-[23px] pb-[25px] px-[30px]">
                             <p class="mb-2">
@@ -96,6 +101,7 @@
                                 <i class="fas fa-users bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] mr-1 shadow-[0.927px_2.853px_10px_rgba(18,_72,_142,_0.5)]"></i> 100
                             </div>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>

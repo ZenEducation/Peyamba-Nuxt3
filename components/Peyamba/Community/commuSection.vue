@@ -28,9 +28,10 @@
             </div>
             <div class="flex flex-wrap ">
                 <div class="lg:w-1/3 md:w-1/2 pr-4 pl-4">
-                    <div class="shadow-[0px_5px_30px_0px_rgba(86,47,218,0.1)] mb-[30px] bg-white overflow-hidden transition-all duration-[ease] delay-[0.3s] rounded-[20px] hover:shadow-[0px_10px_50px_0px_rgb(176,164,226)] hover:translate-y-[-5px]">
+                    <div class="group">
+                        <div class="shadow-[0px_5px_30px_0px_rgba(86,47,218,0.1)] mb-[30px] bg-white overflow-hidden transition-all duration-[ease] delay-[0.3s] hover:transition-all hover:duration-[ease] hover:delay-[0.3s] rounded-[20px] hover:shadow-[0px_10px_50px_0px_rgb(176,164,226)] hover:translate-y-[-5px]">
                         <div class="overflow-hidden">
-                            <img src="@/assets/frontend/images/cummunity/img1.jpg" class="w-full transition-all duration-[linear] delay-[0.6s] hover:scale-110" alt="">
+                            <img src="@/assets/frontend/images/cummunity/img1.jpg" class="w-full transition-all duration-[linear] delay-[0.6s] group-hover:scale-110" alt="">
                         </div>
                         <div class="relative pt-[23px] pb-[25px] px-[30px]">
                             <p class="mb-2">
@@ -52,11 +53,13 @@
                             </div>
                         </div>
                     </div>
+                    </div>
                 </div>
                 <div class="lg:w-1/3 md:w-1/2 pr-4 pl-4">
-                    <div class="shadow-[0px_5px_30px_0px_rgba(86,47,218,0.1)] mb-[30px] bg-white overflow-hidden transition-all duration-[ease] delay-[0.3s] rounded-[20px] hover:shadow-[0px_10px_50px_0px_rgb(176,164,226)] hover:translate-y-[-5px]">
+                    <div class="group">
+                        <div class="shadow-[0px_5px_30px_0px_rgba(86,47,218,0.1)] mb-[30px] bg-white overflow-hidden transition-all duration-[ease] delay-[0.3s] hover:transition-all hover:duration-[ease] hover:delay-[0.3s] rounded-[20px] hover:shadow-[0px_10px_50px_0px_rgb(176,164,226)] hover:translate-y-[-5px]">
                         <div class="overflow-hidden">
-                            <img src="@/assets/frontend/images/cummunity/img2.jpg" class="w-full transition-all duration-[linear] delay-[0.6s] hover:scale-110" alt="">
+                            <img src="@/assets/frontend/images/cummunity/img2.jpg" class="w-full transition-all duration-[linear] delay-[0.6s] group-hover:scale-110" alt="">
                         </div>
                         <div class="relative pt-[23px] pb-[25px] px-[30px]">
                             <p class="mb-2">
@@ -78,11 +81,13 @@
                             </div>
                         </div>
                     </div>
+                    </div>
                 </div>
                 <div class="lg:w-1/3 md:w-1/2 pr-4 pl-4">
-                    <div class="shadow-[0px_5px_30px_0px_rgba(86,47,218,0.1)] mb-[30px] bg-white overflow-hidden transition-all duration-[ease] delay-[0.3s] rounded-[20px] hover:shadow-[0px_10px_50px_0px_rgb(176,164,226)] hover:translate-y-[-5px]">
+                    <div class="group">
+                        <div class="shadow-[0px_5px_30px_0px_rgba(86,47,218,0.1)] mb-[30px] bg-white overflow-hidden transition-all duration-[ease] delay-[0.3s] hover:transition-all hover:duration-[ease] hover:delay-[0.3s] rounded-[20px] hover:shadow-[0px_10px_50px_0px_rgb(176,164,226)] hover:translate-y-[-5px]">
                         <div class="overflow-hidden">
-                            <img src="@/assets/frontend/images/cummunity/img3.jpg" class="w-full transition-all duration-[linear] delay-[0.6s] hover:scale-110" alt="">
+                            <img src="@/assets/frontend/images/cummunity/img3.jpg" class="w-full transition-all duration-[linear] delay-[0.6s] group-hover:scale-110" alt="">
                         </div>
                         <div class="relative pt-[23px] pb-[25px] px-[30px]">
                             <p class="mb-2">
@@ -104,11 +109,13 @@
                             </div>
                         </div>
                     </div>
+                    </div>
                 </div>
                 <div class="lg:w-1/3 md:w-1/2 pr-4 pl-4">
-                    <div class="shadow-[0px_5px_30px_0px_rgba(86,47,218,0.1)] mb-[30px] bg-white overflow-hidden transition-all duration-[ease] delay-[0.3s] rounded-[20px] hover:shadow-[0px_10px_50px_0px_rgb(176,164,226)] hover:translate-y-[-5px]">
+                    <div class="group">
+                        <div class="shadow-[0px_5px_30px_0px_rgba(86,47,218,0.1)] mb-[30px] bg-white overflow-hidden transition-all duration-[ease] delay-[0.3s] hover:transition-all hover:duration-[ease] hover:delay-[0.3s] rounded-[20px] hover:shadow-[0px_10px_50px_0px_rgb(176,164,226)] hover:translate-y-[-5px]">
                         <div class="overflow-hidden">
-                            <img src="@/assets/frontend/images/cummunity/img4.png" class="w-full transition-all duration-[linear] delay-[0.6s] hover:scale-110" alt="">
+                            <img src="@/assets/frontend/images/cummunity/img4.png" class="w-full transition-all duration-[linear] delay-[0.6s] group-hover:scale-110" alt="">
                         </div>
                         <div class="relative pt-[23px] pb-[25px] px-[30px]">
                             <p class="mb-2">
@@ -130,11 +137,13 @@
                             </div>
                         </div>
                     </div>
+                    </div>
                 </div>
                 <div class="lg:w-1/3 md:w-1/2 pr-4 pl-4">
-                    <div class="shadow-[0px_5px_30px_0px_rgba(86,47,218,0.1)] mb-[30px] bg-white overflow-hidden transition-all duration-[ease] delay-[0.3s] rounded-[20px] hover:shadow-[0px_10px_50px_0px_rgb(176,164,226)] hover:translate-y-[-5px]">
+                    <div class="group">
+                        <div class="shadow-[0px_5px_30px_0px_rgba(86,47,218,0.1)] mb-[30px] bg-white overflow-hidden transition-all duration-[ease] delay-[0.3s] hover:transition-all hover:duration-[ease] hover:delay-[0.3s] rounded-[20px] hover:shadow-[0px_10px_50px_0px_rgb(176,164,226)] hover:translate-y-[-5px]">
                         <div class="overflow-hidden">
-                            <img src="@/assets/frontend/images/cummunity/img5.png" class="w-full transition-all duration-[linear] delay-[0.6s] hover:scale-110" alt="">
+                            <img src="@/assets/frontend/images/cummunity/img5.png" class="w-full transition-all duration-[linear] delay-[0.6s] group-hover:scale-110" alt="">
                         </div>
                         <div class="relative pt-[23px] pb-[25px] px-[30px]">
                             <p class="mb-2">
@@ -156,11 +165,13 @@
                             </div>
                         </div>
                     </div>
+                    </div>
                 </div>
                 <div class="lg:w-1/3 md:w-1/2 pr-4 pl-4">
-                    <div class="shadow-[0px_5px_30px_0px_rgba(86,47,218,0.1)] mb-[30px] bg-white overflow-hidden transition-all duration-[ease] delay-[0.3s] rounded-[20px] hover:shadow-[0px_10px_50px_0px_rgb(176,164,226)] hover:translate-y-[-5px]">
+                    <div class="group">
+                        <div class="shadow-[0px_5px_30px_0px_rgba(86,47,218,0.1)] mb-[30px] bg-white overflow-hidden transition-all duration-[ease] delay-[0.3s] hover:transition-all hover:duration-[ease] hover:delay-[0.3s] rounded-[20px] hover:shadow-[0px_10px_50px_0px_rgb(176,164,226)] hover:translate-y-[-5px]">
                         <div class="overflow-hidden">
-                            <img src="@/assets/frontend/images/cummunity/img6.png" class="w-full transition-all duration-[linear] delay-[0.6s] hover:scale-110" alt="">
+                            <img src="@/assets/frontend/images/cummunity/img6.png" class="w-full transition-all duration-[linear] delay-[0.6s] group-hover:scale-110" alt="">
                         </div>
                         <div class="relative pt-[23px] pb-[25px] px-[30px]">
                             <p class="mb-2">
@@ -181,6 +192,7 @@
                                 <i class="fas fa-users bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] mr-1 shadow-[0.927px 2.853px 10px rgba(18, 72, 142, 0.5)]"></i> 100
                             </div>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>

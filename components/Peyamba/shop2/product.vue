@@ -371,724 +371,736 @@
                                 role="tabpanel" aria-labelledby="pills-gird-tab">
                                 <div class="flex flex-wrap ">
                                     <div class="lg:w-1/3 pr-4 pl-4 md:w-1/2">
-                                        <div
-                                            class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
-                                            <div class="img relative overflow-hidden">
-                                                <img src="@/assets/frontend/images/shoping/ShopPage_01/01.jpg"
-                                                    class="hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full"
-                                                    alt="" />
-                                                <span
-                                                    class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
-                                                <ul
-                                                    class="hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="relative pt-[62px] pb-[30px] px-[30px]">
-                                                <span
-                                                    class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
-                                                    $15
-                                                </span>
-                                                <h4 class="text-2xl leading-[34px] block font-semibold">
-                                                    Butterfly Rings
-                                                </h4>
-                                                <div class="flex">
-                                                    <div>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                    </div>
-                                                    <span class="text-[15px] mx-2.5 my-0"> | </span>
-                                                    <span class="text-sm relative top-0.5">
-                                                        229 review
-                                                    </span>
-                                                </div>
-                                                <NuxtLink
-                                                    class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute before:content-['\f30b'] font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
-                                                    to="/peyamba/singleshope"><span
-                                                        class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
-                                                        Now</span></NuxtLink>
-                                            </div>
-                                        </div>
+                                        <div class="group">
+                      <div
+                        class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
+                        <div class="relative overflow-hidden">
+                          <img src="@/assets/frontend/images/shoping/ShopPage_01/12.jpg"
+                            class="group-hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full" alt="" />
+                          <span
+                            class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
+                          <ul
+                            class="group-hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="relative pt-[62px] pb-[30px] px-[30px]">
+                          <span
+                            class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
+                            $15
+                          </span>
+                          <h4 class="text-2xl leading-[34px] block font-semibold">
+                            Butterfly Rings
+                          </h4>
+                          <div class="flex">
+                            <div>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                            </div>
+                            <span class="text-[15px] mx-2.5 my-0"> | </span>
+                            <span class="text-sm relative top-0.5">
+                              229 review
+                            </span>
+                          </div>
+                          <NuxtLink
+                            class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute  before:content-['\f30b']  font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
+                            to="/peyamba/singleshope"><span
+                              class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
+                              Now</span></NuxtLink>
+                        </div>
+                      </div>
+                    </div>
                                     </div>
                                     <div class="lg:w-1/3 pr-4 pl-4 md:w-1/2">
-                                        <div
-                                            class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
-                                            <div class="img relative overflow-hidden">
-                                                <img src="@/assets/frontend/images/shoping/ShopPage_01/02.jpg"
-                                                    class="hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full"
-                                                    alt="" />
-                                                <span
-                                                    class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
-                                                <ul
-                                                    class="hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="relative pt-[62px] pb-[30px] px-[30px]">
-                                                <span
-                                                    class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
-                                                    $15
-                                                </span>
-                                                <h4 class="text-2xl leading-[34px] block font-semibold">
-                                                    Butterfly Rings
-                                                </h4>
-                                                <div class="flex">
-                                                    <div>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                    </div>
-                                                    <span class="text-[15px] mx-2.5 my-0"> | </span>
-                                                    <span class="text-sm relative top-0.5">
-                                                        229 review
-                                                    </span>
-                                                </div>
-                                                <NuxtLink
-                                                    class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute before:content-['\f30b'] font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
-                                                    to="/peyamba/singleshope"><span
-                                                        class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
-                                                        Now</span></NuxtLink>
-                                            </div>
-                                        </div>
+                                        <div class="group">
+                      <div
+                        class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
+                        <div class="relative overflow-hidden">
+                          <img src="@/assets/frontend/images/shoping/ShopPage_01/12.jpg"
+                            class="group-hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full" alt="" />
+                          <span
+                            class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
+                          <ul
+                            class="group-hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="relative pt-[62px] pb-[30px] px-[30px]">
+                          <span
+                            class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
+                            $15
+                          </span>
+                          <h4 class="text-2xl leading-[34px] block font-semibold">
+                            Butterfly Rings
+                          </h4>
+                          <div class="flex">
+                            <div>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                            </div>
+                            <span class="text-[15px] mx-2.5 my-0"> | </span>
+                            <span class="text-sm relative top-0.5">
+                              229 review
+                            </span>
+                          </div>
+                          <NuxtLink
+                            class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute  before:content-['\f30b']  font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
+                            to="/peyamba/singleshope"><span
+                              class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
+                              Now</span></NuxtLink>
+                        </div>
+                      </div>
+                    </div>
                                     </div>
                                     <div class="lg:w-1/3 pr-4 pl-4 md:w-1/2">
-                                        <div
-                                            class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
-                                            <div class="img relative overflow-hidden">
-                                                <img src="@/assets/frontend/images/shoping/ShopPage_01/01.jpg"
-                                                    class="hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full"
-                                                    alt="" />
-                                                <span
-                                                    class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
-                                                <ul
-                                                    class="hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="relative pt-[62px] pb-[30px] px-[30px]">
-                                                <span
-                                                    class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
-                                                    $15
-                                                </span>
-                                                <h4 class="text-2xl leading-[34px] block font-semibold">
-                                                    Butterfly Rings
-                                                </h4>
-                                                <div class="flex">
-                                                    <div>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                    </div>
-                                                    <span class="text-[15px] mx-2.5 my-0"> | </span>
-                                                    <span class="text-sm relative top-0.5">
-                                                        229 review
-                                                    </span>
-                                                </div>
-                                                <NuxtLink
-                                                    class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute before:content-['\f30b'] font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
-                                                    to="/peyamba/singleshope"><span
-                                                        class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
-                                                        Now</span></NuxtLink>
-                                            </div>
-                                        </div>
+                                        <div class="group">
+                      <div
+                        class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
+                        <div class="relative overflow-hidden">
+                          <img src="@/assets/frontend/images/shoping/ShopPage_01/12.jpg"
+                            class="group-hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full" alt="" />
+                          <span
+                            class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
+                          <ul
+                            class="group-hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="relative pt-[62px] pb-[30px] px-[30px]">
+                          <span
+                            class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
+                            $15
+                          </span>
+                          <h4 class="text-2xl leading-[34px] block font-semibold">
+                            Butterfly Rings
+                          </h4>
+                          <div class="flex">
+                            <div>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                            </div>
+                            <span class="text-[15px] mx-2.5 my-0"> | </span>
+                            <span class="text-sm relative top-0.5">
+                              229 review
+                            </span>
+                          </div>
+                          <NuxtLink
+                            class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute  before:content-['\f30b']  font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
+                            to="/peyamba/singleshope"><span
+                              class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
+                              Now</span></NuxtLink>
+                        </div>
+                      </div>
+                    </div>
                                     </div>
                                     <div class="lg:w-1/3 pr-4 pl-4 md:w-1/2">
-                                        <div
-                                            class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
-                                            <div class="img relative overflow-hidden">
-                                                <img src="@/assets/frontend/images/shoping/ShopPage_01/01.jpg"
-                                                    class="hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full"
-                                                    alt="" />
-                                                <span
-                                                    class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
-                                                <ul
-                                                    class="hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="relative pt-[62px] pb-[30px] px-[30px]">
-                                                <span
-                                                    class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
-                                                    $15
-                                                </span>
-                                                <h4 class="text-2xl leading-[34px] block font-semibold">
-                                                    Butterfly Rings
-                                                </h4>
-                                                <div class="flex">
-                                                    <div>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                    </div>
-                                                    <span class="text-[15px] mx-2.5 my-0"> | </span>
-                                                    <span class="text-sm relative top-0.5">
-                                                        229 review
-                                                    </span>
-                                                </div>
-                                                <NuxtLink
-                                                    class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute before:content-['\f30b'] font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
-                                                    to="/peyamba/singleshope"><span
-                                                        class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
-                                                        Now</span></NuxtLink>
-                                            </div>
-                                        </div>
+                                        <div class="group">
+                      <div
+                        class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
+                        <div class="relative overflow-hidden">
+                          <img src="@/assets/frontend/images/shoping/ShopPage_01/12.jpg"
+                            class="group-hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full" alt="" />
+                          <span
+                            class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
+                          <ul
+                            class="group-hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="relative pt-[62px] pb-[30px] px-[30px]">
+                          <span
+                            class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
+                            $15
+                          </span>
+                          <h4 class="text-2xl leading-[34px] block font-semibold">
+                            Butterfly Rings
+                          </h4>
+                          <div class="flex">
+                            <div>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                            </div>
+                            <span class="text-[15px] mx-2.5 my-0"> | </span>
+                            <span class="text-sm relative top-0.5">
+                              229 review
+                            </span>
+                          </div>
+                          <NuxtLink
+                            class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute  before:content-['\f30b']  font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
+                            to="/peyamba/singleshope"><span
+                              class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
+                              Now</span></NuxtLink>
+                        </div>
+                      </div>
+                    </div>
                                     </div>
                                     <div class="lg:w-1/3 pr-4 pl-4 md:w-1/2">
-                                        <div
-                                            class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
-                                            <div class="img relative overflow-hidden">
-                                                <img src="@/assets/frontend/images/shoping/ShopPage_01/01.jpg"
-                                                    class="hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full"
-                                                    alt="" />
-                                                <span
-                                                    class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
-                                                <ul
-                                                    class="hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="relative pt-[62px] pb-[30px] px-[30px]">
-                                                <span
-                                                    class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
-                                                    $15
-                                                </span>
-                                                <h4 class="text-2xl leading-[34px] block font-semibold">
-                                                    Butterfly Rings
-                                                </h4>
-                                                <div class="flex">
-                                                    <div>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                    </div>
-                                                    <span class="text-[15px] mx-2.5 my-0"> | </span>
-                                                    <span class="text-sm relative top-0.5">
-                                                        229 review
-                                                    </span>
-                                                </div>
-                                                <NuxtLink
-                                                    class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute before:content-['\f30b'] font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
-                                                    to="/peyamba/singleshope"><span
-                                                        class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
-                                                        Now</span></NuxtLink>
-                                            </div>
-                                        </div>
+                                        <div class="group">
+                      <div
+                        class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
+                        <div class="relative overflow-hidden">
+                          <img src="@/assets/frontend/images/shoping/ShopPage_01/12.jpg"
+                            class="group-hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full" alt="" />
+                          <span
+                            class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
+                          <ul
+                            class="group-hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="relative pt-[62px] pb-[30px] px-[30px]">
+                          <span
+                            class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
+                            $15
+                          </span>
+                          <h4 class="text-2xl leading-[34px] block font-semibold">
+                            Butterfly Rings
+                          </h4>
+                          <div class="flex">
+                            <div>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                            </div>
+                            <span class="text-[15px] mx-2.5 my-0"> | </span>
+                            <span class="text-sm relative top-0.5">
+                              229 review
+                            </span>
+                          </div>
+                          <NuxtLink
+                            class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute  before:content-['\f30b']  font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
+                            to="/peyamba/singleshope"><span
+                              class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
+                              Now</span></NuxtLink>
+                        </div>
+                      </div>
+                    </div>
                                     </div>
                                     <div class="lg:w-1/3 pr-4 pl-4 md:w-1/2">
-                                        <div
-                                            class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
-                                            <div class="img relative overflow-hidden">
-                                                <img src="@/assets/frontend/images/shoping/ShopPage_01/01.jpg"
-                                                    class="hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full"
-                                                    alt="" />
-                                                <span
-                                                    class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
-                                                <ul
-                                                    class="hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="relative pt-[62px] pb-[30px] px-[30px]">
-                                                <span
-                                                    class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
-                                                    $15
-                                                </span>
-                                                <h4 class="text-2xl leading-[34px] block font-semibold">
-                                                    Butterfly Rings
-                                                </h4>
-                                                <div class="flex">
-                                                    <div>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                    </div>
-                                                    <span class="text-[15px] mx-2.5 my-0"> | </span>
-                                                    <span class="text-sm relative top-0.5">
-                                                        229 review
-                                                    </span>
-                                                </div>
-                                                <NuxtLink
-                                                    class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute before:content-['\f30b'] font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
-                                                    to="/peyamba/singleshope"><span
-                                                        class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
-                                                        Now</span></NuxtLink>
-                                            </div>
-                                        </div>
+                                        <div class="group">
+                      <div
+                        class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
+                        <div class="relative overflow-hidden">
+                          <img src="@/assets/frontend/images/shoping/ShopPage_01/12.jpg"
+                            class="group-hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full" alt="" />
+                          <span
+                            class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
+                          <ul
+                            class="group-hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="relative pt-[62px] pb-[30px] px-[30px]">
+                          <span
+                            class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
+                            $15
+                          </span>
+                          <h4 class="text-2xl leading-[34px] block font-semibold">
+                            Butterfly Rings
+                          </h4>
+                          <div class="flex">
+                            <div>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                            </div>
+                            <span class="text-[15px] mx-2.5 my-0"> | </span>
+                            <span class="text-sm relative top-0.5">
+                              229 review
+                            </span>
+                          </div>
+                          <NuxtLink
+                            class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute  before:content-['\f30b']  font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
+                            to="/peyamba/singleshope"><span
+                              class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
+                              Now</span></NuxtLink>
+                        </div>
+                      </div>
+                    </div>
                                     </div>
                                     <div class="lg:w-1/3 pr-4 pl-4 md:w-1/2">
-                                        <div
-                                            class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
-                                            <div class="img relative overflow-hidden">
-                                                <img src="@/assets/frontend/images/shoping/ShopPage_01/01.jpg"
-                                                    class="hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full"
-                                                    alt="" />
-                                                <span
-                                                    class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
-                                                <ul
-                                                    class="hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="relative pt-[62px] pb-[30px] px-[30px]">
-                                                <span
-                                                    class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
-                                                    $15
-                                                </span>
-                                                <h4 class="text-2xl leading-[34px] block font-semibold">
-                                                    Butterfly Rings
-                                                </h4>
-                                                <div class="flex">
-                                                    <div>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                    </div>
-                                                    <span class="text-[15px] mx-2.5 my-0"> | </span>
-                                                    <span class="text-sm relative top-0.5">
-                                                        229 review
-                                                    </span>
-                                                </div>
-                                                <NuxtLink
-                                                    class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute before:content-['\f30b'] font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
-                                                    to="/peyamba/singleshope"><span
-                                                        class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
-                                                        Now</span></NuxtLink>
-                                            </div>
-                                        </div>
+                                        <div class="group">
+                      <div
+                        class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
+                        <div class="relative overflow-hidden">
+                          <img src="@/assets/frontend/images/shoping/ShopPage_01/12.jpg"
+                            class="group-hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full" alt="" />
+                          <span
+                            class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
+                          <ul
+                            class="group-hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="relative pt-[62px] pb-[30px] px-[30px]">
+                          <span
+                            class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
+                            $15
+                          </span>
+                          <h4 class="text-2xl leading-[34px] block font-semibold">
+                            Butterfly Rings
+                          </h4>
+                          <div class="flex">
+                            <div>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                            </div>
+                            <span class="text-[15px] mx-2.5 my-0"> | </span>
+                            <span class="text-sm relative top-0.5">
+                              229 review
+                            </span>
+                          </div>
+                          <NuxtLink
+                            class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute  before:content-['\f30b']  font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
+                            to="/peyamba/singleshope"><span
+                              class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
+                              Now</span></NuxtLink>
+                        </div>
+                      </div>
+                    </div>
                                     </div>
                                     <div class="lg:w-1/3 pr-4 pl-4 md:w-1/2">
-                                        <div
-                                            class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
-                                            <div class="img relative overflow-hidden">
-                                                <img src="@/assets/frontend/images/shoping/ShopPage_01/01.jpg"
-                                                    class="hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full"
-                                                    alt="" />
-                                                <span
-                                                    class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
-                                                <ul
-                                                    class="hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="relative pt-[62px] pb-[30px] px-[30px]">
-                                                <span
-                                                    class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
-                                                    $15
-                                                </span>
-                                                <h4 class="text-2xl leading-[34px] block font-semibold">
-                                                    Butterfly Rings
-                                                </h4>
-                                                <div class="flex">
-                                                    <div>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                    </div>
-                                                    <span class="text-[15px] mx-2.5 my-0"> | </span>
-                                                    <span class="text-sm relative top-0.5">
-                                                        229 review
-                                                    </span>
-                                                </div>
-                                                <NuxtLink
-                                                    class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute before:content-['\f30b'] font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
-                                                    to="/peyamba/singleshope"><span
-                                                        class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
-                                                        Now</span></NuxtLink>
-                                            </div>
-                                        </div>
+                                        <div class="group">
+                      <div
+                        class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
+                        <div class="relative overflow-hidden">
+                          <img src="@/assets/frontend/images/shoping/ShopPage_01/12.jpg"
+                            class="group-hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full" alt="" />
+                          <span
+                            class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
+                          <ul
+                            class="group-hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="relative pt-[62px] pb-[30px] px-[30px]">
+                          <span
+                            class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
+                            $15
+                          </span>
+                          <h4 class="text-2xl leading-[34px] block font-semibold">
+                            Butterfly Rings
+                          </h4>
+                          <div class="flex">
+                            <div>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                            </div>
+                            <span class="text-[15px] mx-2.5 my-0"> | </span>
+                            <span class="text-sm relative top-0.5">
+                              229 review
+                            </span>
+                          </div>
+                          <NuxtLink
+                            class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute  before:content-['\f30b']  font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
+                            to="/peyamba/singleshope"><span
+                              class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
+                              Now</span></NuxtLink>
+                        </div>
+                      </div>
+                    </div>
                                     </div>
                                     <div class="lg:w-1/3 pr-4 pl-4 md:w-1/2">
-                                        <div
-                                            class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
-                                            <div class="img relative overflow-hidden">
-                                                <img src="@/assets/frontend/images/shoping/ShopPage_01/01.jpg"
-                                                    class="hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full"
-                                                    alt="" />
-                                                <span
-                                                    class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
-                                                <ul
-                                                    class="hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="relative pt-[62px] pb-[30px] px-[30px]">
-                                                <span
-                                                    class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
-                                                    $15
-                                                </span>
-                                                <h4 class="text-2xl leading-[34px] block font-semibold">
-                                                    Butterfly Rings
-                                                </h4>
-                                                <div class="flex">
-                                                    <div>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                    </div>
-                                                    <span class="text-[15px] mx-2.5 my-0"> | </span>
-                                                    <span class="text-sm relative top-0.5">
-                                                        229 review
-                                                    </span>
-                                                </div>
-                                                <NuxtLink
-                                                    class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute before:content-['\f30b'] font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
-                                                    to="/peyamba/singleshope"><span
-                                                        class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
-                                                        Now</span></NuxtLink>
-                                            </div>
-                                        </div>
+                                        <div class="group">
+                      <div
+                        class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
+                        <div class="relative overflow-hidden">
+                          <img src="@/assets/frontend/images/shoping/ShopPage_01/12.jpg"
+                            class="group-hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full" alt="" />
+                          <span
+                            class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
+                          <ul
+                            class="group-hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="relative pt-[62px] pb-[30px] px-[30px]">
+                          <span
+                            class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
+                            $15
+                          </span>
+                          <h4 class="text-2xl leading-[34px] block font-semibold">
+                            Butterfly Rings
+                          </h4>
+                          <div class="flex">
+                            <div>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                            </div>
+                            <span class="text-[15px] mx-2.5 my-0"> | </span>
+                            <span class="text-sm relative top-0.5">
+                              229 review
+                            </span>
+                          </div>
+                          <NuxtLink
+                            class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute  before:content-['\f30b']  font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
+                            to="/peyamba/singleshope"><span
+                              class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
+                              Now</span></NuxtLink>
+                        </div>
+                      </div>
+                    </div>
                                     </div>
                                     <div class="lg:w-1/3 pr-4 pl-4 md:w-1/2">
-                                        <div
-                                            class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
-                                            <div class="img relative overflow-hidden">
-                                                <img src="@/assets/frontend/images/shoping/ShopPage_01/01.jpg"
-                                                    class="hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full"
-                                                    alt="" />
-                                                <span
-                                                    class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
-                                                <ul
-                                                    class="hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="relative pt-[62px] pb-[30px] px-[30px]">
-                                                <span
-                                                    class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
-                                                    $15
-                                                </span>
-                                                <h4 class="text-2xl leading-[34px] block font-semibold">
-                                                    Butterfly Rings
-                                                </h4>
-                                                <div class="flex">
-                                                    <div>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                    </div>
-                                                    <span class="text-[15px] mx-2.5 my-0"> | </span>
-                                                    <span class="text-sm relative top-0.5">
-                                                        229 review
-                                                    </span>
-                                                </div>
-                                                <NuxtLink
-                                                    class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute before:content-['\f30b'] font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
-                                                    to="/peyamba/singleshope"><span
-                                                        class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
-                                                        Now</span></NuxtLink>
-                                            </div>
-                                        </div>
+                                        <div class="group">
+                      <div
+                        class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
+                        <div class="relative overflow-hidden">
+                          <img src="@/assets/frontend/images/shoping/ShopPage_01/12.jpg"
+                            class="group-hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full" alt="" />
+                          <span
+                            class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
+                          <ul
+                            class="group-hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="relative pt-[62px] pb-[30px] px-[30px]">
+                          <span
+                            class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
+                            $15
+                          </span>
+                          <h4 class="text-2xl leading-[34px] block font-semibold">
+                            Butterfly Rings
+                          </h4>
+                          <div class="flex">
+                            <div>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                            </div>
+                            <span class="text-[15px] mx-2.5 my-0"> | </span>
+                            <span class="text-sm relative top-0.5">
+                              229 review
+                            </span>
+                          </div>
+                          <NuxtLink
+                            class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute  before:content-['\f30b']  font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
+                            to="/peyamba/singleshope"><span
+                              class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
+                              Now</span></NuxtLink>
+                        </div>
+                      </div>
+                    </div>
                                     </div>
                                     <div class="lg:w-1/3 md:w-1/2 pr-4 pl-4">
-                                        <div
-                                            class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
-                                            <div class="img relative overflow-hidden">
-                                                <img src="@/assets/frontend/images/shoping/ShopPage_01/01.jpg"
-                                                    class="hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full"
-                                                    alt="" />
-                                                <span
-                                                    class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
-                                                <ul
-                                                    class="hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="relative pt-[62px] pb-[30px] px-[30px]">
-                                                <span
-                                                    class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
-                                                    $15
-                                                </span>
-                                                <h4 class="text-2xl leading-[34px] block font-semibold">
-                                                    Butterfly Rings
-                                                </h4>
-                                                <div class="flex">
-                                                    <div>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                    </div>
-                                                    <span class="text-[15px] mx-2.5 my-0"> | </span>
-                                                    <span class="text-sm relative top-0.5">
-                                                        229 review
-                                                    </span>
-                                                </div>
-                                                <NuxtLink
-                                                    class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute before:content-['\f30b'] font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
-                                                    to="/peyamba/singleshope"><span
-                                                        class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
-                                                        Now</span></NuxtLink>
-                                            </div>
-                                        </div>
+                                        <div class="group">
+                      <div
+                        class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
+                        <div class="relative overflow-hidden">
+                          <img src="@/assets/frontend/images/shoping/ShopPage_01/12.jpg"
+                            class="group-hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full" alt="" />
+                          <span
+                            class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
+                          <ul
+                            class="group-hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="relative pt-[62px] pb-[30px] px-[30px]">
+                          <span
+                            class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
+                            $15
+                          </span>
+                          <h4 class="text-2xl leading-[34px] block font-semibold">
+                            Butterfly Rings
+                          </h4>
+                          <div class="flex">
+                            <div>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                            </div>
+                            <span class="text-[15px] mx-2.5 my-0"> | </span>
+                            <span class="text-sm relative top-0.5">
+                              229 review
+                            </span>
+                          </div>
+                          <NuxtLink
+                            class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute  before:content-['\f30b']  font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
+                            to="/peyamba/singleshope"><span
+                              class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
+                              Now</span></NuxtLink>
+                        </div>
+                      </div>
+                    </div>
                                     </div>
                                     <div class="lg:w-1/3 md:w-1/2 pr-4 pl-4">
-                                        <div
-                                            class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
-                                            <div class="img relative overflow-hidden">
-                                                <img src="@/assets/frontend/images/shoping/ShopPage_01/01.jpg"
-                                                    class="hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full"
-                                                    alt="" />
-                                                <span
-                                                    class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
-                                                <ul
-                                                    class="hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                    <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
-                                                        <NuxtLink to="#" class="block">
-                                                            <i
-                                                                class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
-                                                        </NuxtLink>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="relative pt-[62px] pb-[30px] px-[30px]">
-                                                <span
-                                                    class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
-                                                    $15
-                                                </span>
-                                                <h4 class="text-2xl leading-[34px] block font-semibold">
-                                                    Butterfly Rings
-                                                </h4>
-                                                <div class="flex">
-                                                    <div>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                        <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
-                                                    </div>
-                                                    <span class="text-[15px] mx-2.5 my-0"> | </span>
-                                                    <span class="text-sm relative top-0.5">
-                                                        229 review
-                                                    </span>
-                                                </div>
-                                                <NuxtLink
-                                                    class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute before:content-['\f30b'] font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
-                                                    to="/peyamba/singleshope"><span
-                                                        class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
-                                                        Now</span></NuxtLink>
-                                            </div>
-                                        </div>
+                                        <div class="group">
+                      <div
+                        class="border overflow-hidden bg-white transition-all duration-[ease] delay-[0.3s] mb-[30px] rounded-[10px] border-solid border-[rgba(0,0,0,0.2)] hover:border-[#5b3acc]">
+                        <div class="relative overflow-hidden">
+                          <img src="@/assets/frontend/images/shoping/ShopPage_01/12.jpg"
+                            class="group-hover:scale-110 transition-all duration-[ease] delay-[0.3s] w-full" alt="" />
+                          <span
+                            class="absolute bg-[#5b3acc] text-xs leading-3 text-white uppercase pt-1.5 pb-1 px-[15px] rounded-[0px_50px_50px_0px] left-0 top-[30px]">Sale</span>
+                          <ul
+                            class="group-hover:right-5 absolute right-[-50px] bg-[rgba(255,255,255,0.9)] shadow-[0px_0px_5px_0px_rgba(0,0,0,0.2)] transition-all duration-[ease] delay-[0.3s] px-2.5 py-[3px] rounded-[5px] top-[30px]">
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-sliders-h bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="fas fa-heart bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                            <li class="border-b-[rgba(0,0,0,0.1)] border-b-0 border-solid">
+                              <NuxtLink to="#" class="block">
+                                <i
+                                  class="far fa-eye bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] text-sm"></i>
+                              </NuxtLink>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="relative pt-[62px] pb-[30px] px-[30px]">
+                          <span
+                            class="w-[60px] h-[60px] bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] block text-white font-bold text-2xl leading-[60px] text-center absolute top-[-30px] rounded-[50%] right-2.5">
+                            $15
+                          </span>
+                          <h4 class="text-2xl leading-[34px] block font-semibold">
+                            Butterfly Rings
+                          </h4>
+                          <div class="flex">
+                            <div>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                              <i class="fas fa-star text-xs text-[#f87115] -mr-1"></i>
+                            </div>
+                            <span class="text-[15px] mx-2.5 my-0"> | </span>
+                            <span class="text-sm relative top-0.5">
+                              229 review
+                            </span>
+                          </div>
+                          <NuxtLink
+                            class="block w-[200px] h-10 leading-10 no-underline text-center relative transition-all duration-[0.4s] before:absolute  before:content-['\f30b']  font-['Font_Awesome_5_Free'] before:font-black before:w-10 before:h-10 before:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] before:transition-all before:duration-[0.4s] before:leading-10 before:text-center before:text-xl before:text-white before:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] before:rounded-[50px] before:left-0 before:top-0 hover:text-white hover:bg-[-o-linear-gradient(284deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:bg-[linear-gradient(166deg,rgb(242,40,118)_0%,rgb(148,45,217)_100%)] hover:shadow-[0px_3px_5px_0px_rgba(162,44,202,0.3)] hover:rounded-[50px] hover:before:w-full hover:before:text-right hover:before:bg-[none] hover:before:pr-5 text-base font-bold uppercase text-[#56585a] mt-6"
+                            to="/peyamba/singleshope"><span
+                              class="font-16-semibold relative z-[1] uppercase hover:left-[-15px] hover:text-white">Buy
+                              Now</span></NuxtLink>
+                        </div>
+                      </div>
+                    </div>
                                     </div>
                                 </div>
                             </div>
